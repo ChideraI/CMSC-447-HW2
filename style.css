@@ -1,5 +1,5 @@
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid rgb(18, 43, 134);
     margin-left: auto;  
     margin-right: auto;  
     border-collapse: collapse;    
@@ -9,14 +9,14 @@ table, th, td {
 
  }
 td {
-    color: white;
+    color: #ffff;
 }
 table {
     text-align: center;
 }
 
  h1 {
-    color: white;
+    color: #0000;
     font-family: 'Avenir', Courier;
  }
 
@@ -24,9 +24,9 @@ table {
 
  body {
     text-align: center;
-    color: white;
+    color: #0000;
     font-family: 'Avenir', sans-serif;
-    background-color: black;
+    background-color: #ffff;
  }
 
 
@@ -42,67 +42,6 @@ input {
   margin:10px 0;
   padding:10px;
 }
-.type-1 {
-  border-radius:10px;
-  border: 1px solid #eee;
-  transition: .3s border-color;
+p {
+  color:#0000;
 }
-.type-1:hover {
-  border: 1px solid #aaa;
-}
-
-.type-2 {
-  background-color: #fafafa;
-  border:0;
-  box-shadow:0 0 4px rgba(0,0,0,0.3);
-  transition: .3s box-shadow;
-}
-.type-2:hover {
-  box-shadow:0 0 4px rgba(0,0,0,0.5);
-}
-.type-3 {
-  border:1px solid #111;
-  transition: .3s background-color;
-}
-.type-3:hover {
-  background-color: #fafafa;
-}
-
-
-body {
-    margin:40px;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  input {
-    display:block;
-    width:100%;
-    margin:10px 0;
-    padding:10px;
-  }
-  .type-1 {
-    border-radius:10px;
-    border: 1px solid #eee;
-    transition: .3s border-color;
-  }
-  .type-1:hover {
-    border: 1px solid #aaa;
-  }
-  
-  .type-2 {
-    background-color: #fafafa;
-    border:0;
-    box-shadow:0 0 4px rgba(0,0,0,0.3);
-    transition: .3s box-shadow;
-  }
-  .type-2:hover {
-    box-shadow:0 0 4px rgba(0,0,0,0.5);
-  }
-  .type-3 {
-    border:1px solid #111;
-    transition: .3s background-color;
-  }
-  .type-3:hover {
-    background-color: #fafafa;
-  }
