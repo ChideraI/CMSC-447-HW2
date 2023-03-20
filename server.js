@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser');
 var mysql = require('mysql2');
 
 ///
@@ -110,7 +111,8 @@ app.get('/person/:id', function(req, res) {
 	connection.end();
 });
 
-app.post('/person/:id', function(req,res){
+var url_body_parser = bodyParser.urlencoded({extended: false})
+app.post('/person', url_body_parser, function(req,res){
 
     // Connect to MySQL database.
 	var connection = getMySQLConnection();
